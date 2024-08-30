@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(237, 234, 234);
+}
+
+main {
+    text-align: center;
+}
+
+h2 {
+    color: aqua;
+}
+
+.fs {
+    color: greenyellow;
+}
+
+
+
+.container {
+    font-size: 1.5rem;
+    display: grid;
+    border: solid white;
+    border-radius: 1em;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: 0 0px 8px rgb(0,0,0,0.9);
+    height: auto;
+}
+.second-box {
+    border-bottom-left-radius: 1em;
+    margin: 0px;
+}
+.third-box {
+    border-bottom-right-radius: 1em;
+}
+
+.first-box {
+    grid-column: span 2;
+    background-color: white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.second-box p {
+font-size: 30px;
+
+}
+
+span {
+    color: grey;
+    font-size: 1em;
+}
+
+button {
+    height: 3rem;
+    width: 5rem;
+    color: aliceblue;
+    font-size: 1rem;
+    background-color: greenyellow;
+    margin-bottom: 1rem;
+    
+}
+
+.container > * {
+    text-align: center;
+}
+.second-box {
+    background-color: rgb(28, 207, 207);
+    border: solid rgb(28, 207, 207);
+}
+
+.third-box {
+    background-color: aqua;
+    border: solid aqua;
+}
